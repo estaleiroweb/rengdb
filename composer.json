@@ -1,0 +1,30 @@
+{
+    "name": "estaleiroweb/rengdb",
+	"description": "rEngDB (Reverse Engine of Data Base) is a framework that uses any database as metadata base and uses it to display grids with filters, CRUD forms and reports on the screen.",
+	"type": "library",
+    "license": "MIT",
+	"version": "1.0.0",
+    "autoload": {
+		"files": [
+			"main.php"
+		],
+        "psr-4": {
+            "DockWeb\\REngDB\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helbert Fernandes",
+            "email": "helbertfernandes@gmail.com"
+        }
+    ],
+	"require": {
+		"php": ">=7.4",
+		"ext-mysqli": "*",
+		"ext-pdo": "*",
+		"ext-pdo_mysql": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	}
+}
